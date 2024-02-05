@@ -1,10 +1,10 @@
 {
-    "type" : "softGripper",
-    "new_encRes" : 98304,
-    "new_mlRatio" : 1,
-    "new_SampSL" : 0.001,
-    "motor_current_limit" : 3.74,
-    "drive_current_limit" : 20,
-    "canPort" : "can0"
-    }
+"type" : "softGripper",
+"new_encRes" : 393216,
+"new_mlRatio" : 1,
+"new_SampSL" : 0.001,
+"motor_current_limit" : 3.74,
+"drive_current_limit" : 20,
+"canPort" : "can0"
+}
     
