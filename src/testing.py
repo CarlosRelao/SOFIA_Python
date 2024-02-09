@@ -10,3 +10,5 @@ K = -1
 result = list(np.array(position) * K)
 
 print(result)
+
+input()
