@@ -1,6 +1,6 @@
 # SOFIA_Python
 <p align="center">
-    This repository includes the traduction of C++ to Python library (Driver motors and IMU Sensor)
+    This repository includes the traduction of C++ to Python library (Driver motors)
 </p>
 
 
@@ -51,9 +51,9 @@ python3
 nano .bashrc
 ```
 - Then a window will appear as the picture shows as follows. At the end of it type the following: 
-![LD_LIBRARY_PATH_picture](/images/LD_LIBRARY_PATH_picture.png)
+![LD_LIBRARY_PATH_pictur](/images/LD_LIBRARY_PATH_picture.png)
 ```bash
-export LD_LIBRARY_PATH=/usr/local/lib/python3.8/dist-packages:$LD_LIBRARY_PATH
+export LD_LIBRARY_PATH=/usr/local/lib/python3.10/dist-packages:$LD_LIBRARY_PATH
 ```
 - After that type Ctrl+O, then Ctrl+X and in terminal the following:
 
@@ -88,31 +88,10 @@ python3
 >>> import SocketCanPort 
 ```
 
-### 3.2 Sensor library
-- Go to the "SensorIntegrationPython" folder, open a terminal there and type:
-```bash
-# giving the permissions to the script to be executed
-sudo chmod +x scriptSwig.sh
-
-# execute the script
-sh scriptSwig.sh
-```
-- Verify that the modules have been installed
-```bash
-# execute Python on terminal
-python3 
-
-# import imu3dmgx510 module (for example)
->>> import imu3dmgx510
-```
 
 ## 4. Using the libraries in an IDE
 <p align="justify">
-Only Qt creator had been used for the management of the libraries. To make it worked, we had to perform a series of steps so that the library could be executed in the IDE (just for moving a soft robotic articulation). However, recently VS Code has been used and no further steps are required apart from opening the project in the IDE. 
-</p>
-
-If you want to use specifically Qt Creator, here is a user's guide to configure it correctly:
-
+VScode has been used and worked with this library without problems.
 
 *Now you can start using the library in Python*
 
